@@ -4,7 +4,7 @@
 ## ¿Como contribuir?
 **IMPORTANTE:** Antes de empezar con estos pasos, debes crear una cuenta en GitHub y pasar tu nombre de usuario por el [grupo de Telegram](https://t.me/daw_dam_cidead). Así podremos invitarte a formar parte de DAMDAWTeam y otorgarte permisos para realizar cambios sobre el respositorio 😉
 
-1. Descarga e instala `git` en tu equipo la [versión de git para tu sistema operativo](https://git-scm.com/downloads).
+1. Descarga e instala `git` en tu equipo la [versión para tu sistema operativo](https://git-scm.com/downloads).
 
 2. Abre la terminal y dirígete al directorio donde vayas a trabajar (en Windows abrir Git Bash haciendo click derecho sobre cualquier parte de la carpeta y escoger la opción *Git Bash here*). No cierres la terminal, que solo acabamos de empezar con ella 😜
 
