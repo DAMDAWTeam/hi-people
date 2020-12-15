@@ -10,9 +10,9 @@
 
 3. Una vez ubicados en el directorio con nuestra terminal, clonaremos este repositorio al mismo con el siguiente comando `git clone https://github.com/DAMDAWTeam/hi-people.git`. Si todo ha ido bien verás una nueva carpeta en tu directorio con los archivos del repositorio.
 
-4. Entra en el directorio y modifica el archivo [`people.csv`](people.csv) con un editor de texto plano (bloc de notas, NotePad++, etc), añadiendo tu Nombre/Alias, usuario en GitHub y enlace a tu perfil de Línkedin. Guardalo y vamos al siguiente paso.
+4. Entra en el directorio y modifica el archivo [`people.md`](people.md) con un editor de texto plano (bloc de notas, NotePad++, etc), añadiendo tu Nombre/Alias, usuario en GitHub y enlace a tu perfil de Línkedin. Guardalo y vamos al siguiente paso.
 
-5. Vamos a ver lo que ha pasado en el respositorio. Para ello, vuelve a tu terminal (la misma que usaste para hacer el `clone`) e introduce el comando `cd hi-people` para acceder al directorio del repositorio. Una vez dentro ejecuta `git status`. Este comando nos devolverá el estado de nuestro repositorio local (rama/branch en la que nos encontramos trabajando y qué archivos han sido modificados en rojo). Si queremos más detalles sobre los cambios realizados en un archivo podemos ejecutar `git diff people.csv`.
+5. Vamos a ver lo que ha pasado en el respositorio. Para ello, vuelve a tu terminal (la misma que usaste para hacer el `clone`) e introduce el comando `cd hi-people` para acceder al directorio del repositorio. Una vez dentro ejecuta `git status`. Este comando nos devolverá el estado de nuestro repositorio local (rama/branch en la que nos encontramos trabajando y qué archivos han sido modificados en rojo). Si queremos más detalles sobre los cambios realizados en un archivo podemos ejecutar `git diff people.md`.
 
 6. Ahora vas a crear tu rama para poder añadir los cambios a ella sin trastocar la rama principal. Para ello ejecuta el siguiente comando `git checkout -b tunombre-add`. Con esto acabamos de crear una nueva rama llamada `tunombre-add` dentro del respositorio donde vamos a añadir los cambios que has realizado. Para comprobar que te encuentras en otra rama puedes ejecutar `git status`, de hecho es una buena práctica ejecutarlo de vez en cuando para no perder de vista el estado de nuestro repositorio.
 
