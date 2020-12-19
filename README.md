@@ -16,7 +16,7 @@
 
 6. Ahora vas a crear tu rama para poder añadir los cambios a ella sin trastocar la rama principal. Para ello ejecuta el siguiente comando `git checkout -b tunombre-add`. Con esto acabamos de crear una nueva rama llamada `tunombre-add` dentro del repositorio donde vamos a añadir los cambios que has realizado. Para comprobar que te encuentras en otra rama puedes ejecutar `git status`, de hecho, es una buena práctica ejecutarlo de vez en cuando para no perder de vista el estado de nuestro repositorio.
 
-7. Una vez creada la rama vamos a añadir los cambios realizados y comentarlos. Para ello ejecuta `git add .` para añadir el fichero, y en una nueva línea `git commit -m "Añadido Mi Nombre"` para comentar los cambios realizados (El comentario entre comillas debe ser lo más descriptivo posible sobre los cambios realizados).
+7. Una vez creada la rama vamos a añadir los cambios realizados y comentarlos. Para ello ejecuta `git add people.md` para añadir el fichero, y en una nueva línea `git commit -m "Añadido Mi Nombre"` para comentar los cambios realizados (El comentario entre comillas debe ser lo más descriptivo posible sobre los cambios realizados).
 
 9. Ya estamos casi terminando. Ahora subiremos nuestra rama al repositorio en GitHub. Para ello ejecutaremos el comando `git push origin tunombre-add`. Fíjate que donde `tunombre-add` corresponde con el nombre de la rama que creaste en el paso 6, por lo que tendrás que modificarlo para que sea igual. Si es la primera vez que usas GitHub desde la terminal te pedirá introducir tus datos de acceso (usuario y contraseña). Si todo ha ido bien se cargará un mensaje en la terminal con información de los cambios, ya lo tenemos casi ¡No cierres la terminal! Solo nos queda un paso con ella.
 
